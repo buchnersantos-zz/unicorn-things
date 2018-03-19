@@ -3,6 +3,15 @@
     
     <head>
         <meta charset="UTF-8">
+        <script>
+            window["optimizely"] = window["optimizely"] || [];
+
+            window["optimizely"].push({ 
+                "type": "cookieExpiration", 
+                "cookieExpirationDays": 365 
+            });
+        </script>
+
         <script src="https://cdn.optimizely.com/js/10451181848.js"></script>
 
         <title>Heroku Connect</title>
