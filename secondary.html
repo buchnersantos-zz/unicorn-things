@@ -17,11 +17,6 @@
         <title>Heroku Connect</title>
 
         <style>
-            #outer {
-                width: 400px;
-                height: 1000px;
-                border: 1px solid #000;
-            }
             #inner {
                 position: relative;
                 transform: translate(0px, -10%);
@@ -34,30 +29,11 @@
     <body>
         
 
-        Click <a href="#chapter4">here</a>
-        <br>to read chapter 4. 
-
+       
         <div id="outer">
-            <div id="inner">
-
-                <a name="chapter4">Chapter 4</a> 
-                <p>
-                <select id="mySelect" onchange="myFunction()">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </select></p>
-                <p id="demo"></p>
-            </div>
+            <iframe src="https://giphy.com/embed/3rgXBt3KCD7KR8FWXS" width="365" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         </div>
         
-    <script>
-        window.myFunction = function() {
-            var x = document.getElementById("mySelect").value;
-            document.getElementById("demo").innerHTML = "You selected: " + x;
-        }
-    </script>
 
 
     </body>
